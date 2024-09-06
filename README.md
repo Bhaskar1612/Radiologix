@@ -87,10 +87,7 @@ Radiologix is designed to assist healthcare professionals in early and accurate 
 - Improved accuracy and performance of models through continuous training on larger datasets.
 - Integration with Electronic Health Record (EHR) systems for seamless medical data management.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
-FastAPI
-React
-PyTorch
+- FastAPI
+- React
+- PyTorch
