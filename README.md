@@ -6,10 +6,12 @@ Radiologix is a medical imaging analysis project that uses deep learning models 
 Backend Framework: Built with FastAPI for high performance and ease of use.
 Frontend Interface: Developed using React to provide a user-friendly interface for uploading images and displaying results.
 Machine Learning Models: Four deep learning models developed using PyTorch and TorchVision:
+
 - Pneumonia Model: Classifies X-rays into 'NORMAL' or 'PNEUMONIA'. (Accuracy: 81.5%)
 - Brain MRI Model: Classifies MRI scans into 'Glioma', 'Meningioma', 'No Tumor', or 'Pituitary'. (Accuracy: 78%)
 - Lumbar Spine Model: Classifies lumbar spine X-rays into 'processed_lsd', 'processed_osf', 'processed_spider', or 'processed_tseg'. (Accuracy: 98%)
 - COVID-19 Model: Classifies X-rays into 'Covid', 'Normal', or 'Viral Pneumonia'. (Accuracy: 88%)
+
 DevOps Integration: The project uses Docker for containerization, Kubernetes for orchestration, and a CI/CD pipeline maintained through Git workflows.
 
 ## Installation and Setup
