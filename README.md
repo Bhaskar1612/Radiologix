@@ -64,27 +64,30 @@ kubectl apply -f kubernetes-frontend.yaml
 ## CI/CD Pipeline
 The project is maintained using a Git-based CI/CD workflow, ensuring that every commit is tested and deployed automatically:
 
-Continuous Integration: On every push, the backend and frontend Docker images are built and tested.
-Continuous Deployment: Successful builds are deployed to a Kubernetes cluster.
-Usage
-Open the frontend in a web browser.
-Upload an X-ray image for classification.
-The frontend sends the image to the FastAPI backend.
-The backend loads the appropriate PyTorch model and returns the classification result.
-The result is displayed on the frontend.
-Real-Life Importance
+- Continuous Integration: On every push, the backend and frontend Docker images are built and tested.
+- Continuous Deployment: Successful builds are deployed to a Kubernetes cluster.
+ 
+### Usage
+- Open the frontend in a web browser.
+- Upload an X-ray image for classification.
+- The frontend sends the image to the FastAPI backend.
+- The backend loads the appropriate PyTorch model and returns the classification result.
+- The result is displayed on the frontend.
+
+## Real-Life Importance
 Radiologix is designed to assist healthcare professionals in early and accurate diagnosis of various diseases, including Pneumonia, brain tumors, lumbar spine issues, and COVID-19. The use of AI in medical imaging can significantly reduce diagnostic errors, expedite patient care, and enhance decision-making processes.
 
 ## Potential Benefits:
-Early Detection: Quickly identifies conditions like pneumonia and brain tumors, allowing for timely intervention.
-Cost-Effective: Reduces the need for multiple tests by providing accurate results from a single X-ray.
-Scalable: Can be integrated into hospital management systems to provide instant diagnostic support across various departments.
-Automated Workflow: With DevOps practices, the deployment and management of this tool are fully automated, ensuring high availability and minimal downtime.
-Future Enhancements
-Support for additional disease classifications using different imaging modalities.
-Improved accuracy and performance of models through continuous training on larger datasets.
-Integration with Electronic Health Record (EHR) systems for seamless medical data management.
-License
+- Early Detection: Quickly identifies conditions like pneumonia and brain tumors, allowing for timely intervention.
+- Cost-Effective: Reduces the need for multiple tests by providing accurate results from a single X-ray.
+- Scalable: Can be integrated into hospital management systems to provide instant diagnostic support across various departments.
+- Automated Workflow: With DevOps practices, the deployment and management of this tool are fully automated, ensuring high availability and minimal downtime.
+- Future Enhancements
+- Support for additional disease classifications using different imaging modalities.
+- Improved accuracy and performance of models through continuous training on larger datasets.
+- Integration with Electronic Health Record (EHR) systems for seamless medical data management.
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
