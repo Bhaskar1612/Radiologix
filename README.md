@@ -4,7 +4,9 @@ Radiologix is a medical imaging analysis project that uses deep learning models 
 ## Key Features
 
 Backend Framework: Built with FastAPI for high performance and ease of use.
+
 Frontend Interface: Developed using React to provide a user-friendly interface for uploading images and displaying results.
+
 Machine Learning Models: Four deep learning models developed using PyTorch and TorchVision:
 
 - Pneumonia Model: Classifies X-rays into 'NORMAL' or 'PNEUMONIA'. (Accuracy: 81.5%)
