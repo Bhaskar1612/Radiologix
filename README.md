@@ -25,41 +25,49 @@ Prerequisites
 - Backend Setup (FastAPI)
 
 Clone the Repository:
-bash
+```bash
 git clone <repository-url>
 cd radiologix/backend
+```
 
 Build Docker Image:
-bash
+```bash
 docker build -t radiologix-backend .
+```
 
 Run Docker Container:
-bash
+```bash
 docker run -p 8000:8000 radiologix-backend
+```
 
 Kubernetes Deployment:
 Deploy the backend using the kubernetes-backend.yaml file:
-bash
+```bash
 kubectl apply -f kubernetes-backend.yaml
+```
 
 Frontend Setup (React)
 
 Navigate to Frontend Directory:
-bash
+```bash
 cd radiologix/frontend
+```
 
 Build Docker Image:
-bash
+```bash
 docker build -t radiologix-frontend .
+```
 
 Run Docker Container:
-bash
+```bash
 docker run -p 3000:3000 radiologix-frontend
+```
 
 Kubernetes Deployment:
 Deploy the frontend using the kubernetes-frontend.yaml file:
-bash
+```bash
 kubectl apply -f kubernetes-frontend.yaml
+```
 
 ## CI/CD Pipeline
 The project is maintained using a Git-based CI/CD workflow, ensuring that every commit is tested and deployed automatically:
